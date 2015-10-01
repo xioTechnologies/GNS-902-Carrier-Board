@@ -620,18 +620,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="x-io">
 <packages>
 <package name="GNS-902">
-<smd name="1" x="5.35" y="0.925" dx="1.4" dy="0.9" layer="1"/>
-<smd name="2" x="5.35" y="7" dx="1.4" dy="0.9" layer="1"/>
-<smd name="3" x="5.35" y="9.5" dx="1.4" dy="0.9" layer="1"/>
-<smd name="4" x="5.35" y="10.75" dx="1.4" dy="0.9" layer="1"/>
-<smd name="5" x="5.35" y="12" dx="1.4" dy="0.9" layer="1"/>
-<smd name="6" x="5.35" y="13.25" dx="1.4" dy="0.9" layer="1"/>
-<smd name="20" x="-5.35" y="0.925" dx="1.4" dy="0.9" layer="1"/>
-<smd name="19" x="-5.35" y="7" dx="1.4" dy="0.9" layer="1"/>
-<smd name="17" x="-5.35" y="9.5" dx="1.4" dy="0.9" layer="1"/>
-<smd name="16" x="-5.35" y="10.75" dx="1.4" dy="0.9" layer="1"/>
-<smd name="15" x="-5.35" y="13.25" dx="1.4" dy="0.9" layer="1"/>
-<smd name="18" x="-5.35" y="8.25" dx="1.4" dy="0.9" layer="1"/>
+<smd name="1" x="4.65" y="0.925" dx="1.4" dy="0.9" layer="1"/>
+<smd name="2" x="4.65" y="7" dx="1.4" dy="0.9" layer="1"/>
+<smd name="3" x="4.65" y="9.5" dx="1.4" dy="0.9" layer="1"/>
+<smd name="4" x="4.65" y="10.75" dx="1.4" dy="0.9" layer="1"/>
+<smd name="5" x="4.65" y="12" dx="1.4" dy="0.9" layer="1"/>
+<smd name="6" x="4.65" y="13.25" dx="1.4" dy="0.9" layer="1"/>
+<smd name="20" x="-4.65" y="0.925" dx="1.4" dy="0.9" layer="1"/>
+<smd name="19" x="-4.65" y="7" dx="1.4" dy="0.9" layer="1"/>
+<smd name="17" x="-4.65" y="9.5" dx="1.4" dy="0.9" layer="1"/>
+<smd name="16" x="-4.65" y="10.75" dx="1.4" dy="0.9" layer="1"/>
+<smd name="15" x="-4.65" y="13.25" dx="1.4" dy="0.9" layer="1"/>
+<smd name="18" x="-4.65" y="8.25" dx="1.4" dy="0.9" layer="1"/>
 <smd name="7" x="4.375" y="15.625" dx="1.4" dy="0.9" layer="1" rot="R90"/>
 <smd name="8" x="3.125" y="15.625" dx="1.4" dy="0.9" layer="1" rot="R90"/>
 <smd name="9" x="1.875" y="15.625" dx="1.4" dy="0.9" layer="1" rot="R90"/>
@@ -640,19 +640,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="12" x="-1.875" y="15.625" dx="1.4" dy="0.9" layer="1" rot="R90"/>
 <smd name="13" x="-3.125" y="15.625" dx="1.4" dy="0.9" layer="1" rot="R90"/>
 <smd name="14" x="-4.375" y="15.625" dx="1.4" dy="0.9" layer="1" rot="R90"/>
-<wire x1="5.125" y1="16" x2="5.5" y2="16" width="0.127" layer="21"/>
-<wire x1="5.5" y1="16" x2="5.5" y2="14" width="0.127" layer="21"/>
-<wire x1="-5.125" y1="16" x2="-5.5" y2="16" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="16" x2="-5.5" y2="14" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="12.5" x2="-5.5" y2="11.5" width="0.127" layer="21"/>
-<wire x1="5.5" y1="8.75" x2="5.5" y2="7.75" width="0.127" layer="21"/>
-<wire x1="5.5" y1="6.25" x2="5.5" y2="1.75" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="6.25" x2="-5.5" y2="1.75" width="0.127" layer="21"/>
-<wire x1="5.5" y1="0.125" x2="5.5" y2="0" width="0.127" layer="21"/>
-<wire x1="5.5" y1="0" x2="-5.5" y2="0" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="0" x2="-5.5" y2="0.125" width="0.127" layer="21"/>
+<wire x1="-5" y1="12.5" x2="-5" y2="11.5" width="0.127" layer="21"/>
+<wire x1="5" y1="8.75" x2="5" y2="7.75" width="0.127" layer="21"/>
+<wire x1="5" y1="6.25" x2="5" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-5" y1="6.25" x2="-5" y2="1.75" width="0.127" layer="21"/>
+<wire x1="5" y1="0.125" x2="5" y2="0" width="0.127" layer="21"/>
+<wire x1="5" y1="0" x2="-5" y2="0" width="0.127" layer="21"/>
+<wire x1="-5" y1="0" x2="-5" y2="0.125" width="0.127" layer="21"/>
 <text x="6.0325" y="4.445" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="6.0325" y="3.175" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-5" y1="14" x2="-5" y2="14.5" width="0.127" layer="21"/>
+<wire x1="5" y1="14" x2="5" y2="14.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3821,7 +3819,7 @@ FQP27P06 -
 <part name="U1" library="x-io" deviceset="GNS-902" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="20MM_4LEGS" value="BAT-HLD-001"/>
+<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="20MM_4LEGS" value="20mm coincell"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
 <part name="SUPPLY5" library="x-io" deviceset="VBATTERY" device=""/>
@@ -3844,8 +3842,16 @@ FQP27P06 -
 <sheets>
 <sheet>
 <plain>
-<text x="246.38" y="20.32" size="2.54" layer="94">v1.1</text>
+<text x="246.38" y="20.32" size="2.54" layer="94">v1.2</text>
 <text x="162.56" y="7.62" size="2.54" layer="94">Author: Seb Madgwick, x-io Technologies Limited</text>
+<text x="139.7" y="142.24" size="1.778" layer="97">The mean GNS-902 VBACKUP current was measured as 7 uA or 130 uA if VCC is
+powered.  The FET circuit ensures that current drawn from the battery is zero
+when VCC is powered.</text>
+<text x="139.7" y="152.4" size="1.778" layer="97">NOTE:</text>
+<wire x1="137.16" y1="157.48" x2="236.22" y2="157.48" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="236.22" y1="157.48" x2="236.22" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="236.22" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="137.16" y1="137.16" x2="137.16" y2="157.48" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="R2" gate="G$1" x="142.24" y="63.5" smashed="yes" rot="R90">
@@ -4109,4 +4115,10 @@ FQP27P06 -
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
